@@ -18,7 +18,7 @@ const Navbar = () => {
     line3.classList.toggle('-rotate-45')
   }
   return (
-    <nav className="flex justify-between transition-all md:items-center bg-bluePrimary/25 fixed top-0 w-full border border-nav/5 shadow-black/20 shadow-sm px-4 backdrop-blur-md z-[10]">
+    <nav className="flex justify-between md:items-center bg-bluePrimary/25 fixed top-0 w-full border border-nav/5 shadow-black/20 shadow-sm px-4 backdrop-blur-md z-[10]">
       <div className="flex max-lg:justify-center max-lg:flex-col justify-between md:w-3/4">
       <Link to="/">
         <img
@@ -45,7 +45,7 @@ const Navbar = () => {
         })}
       </div>
       </div>
-      <div className="auth flex gap-4 max-lg:text-xs items-start pt-3">
+      <div className="auth flex gap-4 max-lg:text-xs items-start max-lg:pt-3">
         <Link to='/login' className="bg-gradient-to-b from-bluePrimary px-1 flex rounded-md border border-white/50 shadow-md shadow-gray-500/50">
           Log In
         </Link>
