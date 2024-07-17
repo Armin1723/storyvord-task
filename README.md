@@ -8,7 +8,7 @@ To install the project locally, follow these steps:
 
 1. Clone the GitHub repository:
     ```bash
-    git clone https://github.com/Armin1723/storyvord-task.git
+    git clone "https://github.com/Armin1723/storyvord-task.git"
     ```
 
 2. Navigate to the project directory:
@@ -29,6 +29,4 @@ npm start
 
 ## Live version
 A live version of this project is available at: 
-```bash
- https://storyvord-task.vercel.app
- ```
+ [https://storyvord-task.vercel.app](https://storyvord-task.vercel.app)
