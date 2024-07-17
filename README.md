@@ -24,7 +24,7 @@ To install the project locally, follow these steps:
 ## Usage
 To run the project locally, use the following command:
 ```bash
-npm start
+npm run dev
 ```
 
 ## Live version
