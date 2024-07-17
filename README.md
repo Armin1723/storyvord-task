@@ -1,7 +1,7 @@
 # Storyvord - Task
 
 ## Description
-Storyvord - Task is a web application cloned from a Figma file. It provides a platform for managing tasks efficiently.
+Storyvord - Task is a web application cloned from a Figma file. 
 
 ## Installation
 To install the project locally, follow these steps:
