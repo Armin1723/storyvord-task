@@ -9,7 +9,7 @@ const CallToAction = () => {
   return (
     <section
       className={` ${
-        theme === "dark" ? "bg-[#1C274540]" : "bg-nav"
+        theme === "dark" ? "bg-gray-900" : "bg-nav"
       } w-full px-8 md:px-16 flex flex-col items-center py-4 gap-8`}
     >
       <p className="text-4xl max-sm:text-2xl">How Can You Contribute?</p>

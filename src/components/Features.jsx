@@ -18,9 +18,9 @@ const Features = () => {
         alt="bubbles"
         className="absolute -top-[16rem] right-0 w-full z-[3] "
       />
-      <div className="cardContainer top-0 mx-8 md:mx-16 -mt-12 flex flex-col justify-between items-center gap-8 py-4 pb-8 rounded-xl backdrop-blur-xl shadow-[0_0_100px_black] shadow-black/20 border border-white/20 z-[5]">
+      <div className="cardContainer top-0 mx-4 md:mx-16 -mt-12 flex flex-col justify-between items-center gap-8 py-4 pb-8 rounded-xl backdrop-blur-xl shadow-[0_0_100px_black] shadow-black/20 border border-white/20 z-[5]">
         <p className="text-5xl max-lg:text-2xl underline text-center font-400">Key Features of GoCPT BETA</p>
-        <div className=" grid grid-cols-1 md:grid-cols-2 mx-16 gap-4 font-[offside]">
+        <div className=" grid grid-cols-1 md:grid-cols-2 md:mx-16 mx-6 gap-4 font-[offside]">
           {featureCards.map((card, index) => {
             return <FeatureCard card={card} key={index} />;
           })}

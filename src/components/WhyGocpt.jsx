@@ -8,10 +8,10 @@ const WhyGocpt = () => {
   return (
     <section
       className={`${
-        theme === "dark" ? "bg-[#1C274540]" : "bg-[#1C2745]"
-      } flex flex-col items-center min-h-fit`}
+        theme === "dark" ? "gocpt-light bg-opacity-10" : "gocpt-light"
+      } flex flex-col items-center min-h-fit z-10`}
     >
-      <div className="gocptContainer px-8 md:px-16 py-4 flex flex-col items-center mb-12">
+      <div className="gocptContainer px-8 md:px-16 py-4 flex flex-col items-center mb-12 ">
         <p className="text-4xl max-sm:text-xl">
           Why <span className="font-[700]">GoCPT</span>?
         </p>

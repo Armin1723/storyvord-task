@@ -35,9 +35,9 @@ const ContactUs = () => {
                 id="message" 
                 placeholder="Message" 
                 rows={6} 
+                defaultValue={'Message'}
                 className="focus:ring-0 border border-white/60 bg-black/85 drop-shadow-[0_0_25px_black] rounded-xl text-xl placeholder:text-white/90 p-2 px-4 w-4/5"
                 >
-                Message
             </textarea>
             <div className="submit w-4/5 flex items-center justify-center">
                 <button type="submit" className="px-6 py-1 rounded-lg border bg-gradient-to-b hover:bg-gradient-to-t from-[#B382D380] to-[#1C274580] flex w-fit items-center">SUBMIT</button>
