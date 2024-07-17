@@ -50,3 +50,57 @@ export const storyLinks = [
         desc : 'We envision a future where mental health care is more accessible, where providers can focus on what they do best - helping individuals on their path to wellness. By harnessing the power of technology, we aim to streamline the complexities of CPT coding, enabling providers to dedicate more time to patient care and less to administrative burdens.',
     }
 ]
+
+export const pictureLinks = [
+    {
+        title : 'Thorough Documentation',
+        desc : "Be comprehensive in documenting the patient encounter. Include a detailed history of present illness, an exhaustive examination, and a comprehensive medical decision-making process. Capture all relevant details, ensuring that your notes paint a complete picture of the patient's condition and your clinical assessment",
+        image : 'card-1.png'
+    },
+    {
+        title : 'Assess Risk and Complexity',
+        desc : "Assess Risk and ComplexityEvaluate and document the risk of complications and/or morbidity associated with the patient's condition. Be explicit about the factors contributing to the complexity of the case. The goCPT app considers risk assessment, and detailed documentation aids in accurate code generation",
+        image : 'card-2.png'
+    },
+    {
+        title : 'Time Based Coding',
+        desc : 'Time-Based CodingUtilize time-based coding when appropriate. If a significant portion of the encounter is devoted to counseling or coordination of care, document the time spent. The goCPT app recognizes time as a crucial factor in certain code selections, contributing to accurate billing',
+        image : 'card-3.png'
+    },
+    {
+        title : 'Specificity Matters',
+        desc : "Provide specific details about each medical issue. Describe the nature, severity, and progression of symptoms. Specificity enhances the accuracy of code generation by ensuring that the app captures the complexity of the patient's conditions and the level of decision-making required",
+        image : 'card-4.png'
+    },
+    {
+        title : 'Include Relevant Data',
+        desc : "Include Relevant DataEnsure that your note incorporates all relevant data, including diagnostic test results, imaging studies, and laboratory findings. The goCPT app considers the complexity of data analysis, so including these details enhances the accuracy of the generated codes",
+        image : 'card-5.png'
+    },
+    {
+        title : 'Document Thoroughly with all Relevant Data',
+        desc : "Ensure that your note incorporates all relevant data, including ordering or reviewing diagnostic test results, imaging studies, and laboratory findings. The goCPT app considers the complexity of data analysis, so including these details enhances the accuracy of the generated codes",
+        image : 'card-6.png'
+    },
+    {
+        title : 'Regularly Update the App',
+        desc : "Keep the goCPT app updated to ensure you benefit from the latest enhancements and refinements. Regular updates enhance the app's capabilities, providing you with increasingly accurate code suggestions",
+        image : 'card-7.png'
+    },
+    {
+        title : 'Stay Informed',
+        desc : "Stay abreast of changes in coding guidelines and standards. Familiarize yourself with any updates to CPT codes or relevant regulations. A well-informed approach ensures that your documentation aligns with current coding requirements",
+        image : 'card-8.png'
+    }
+]
+
+export const callToActionLinks = [
+    {
+        title : 'Sign Up and Use goCPT Beta',
+        desc : 'Dive into the beta version by signing up here!. Explore its features and discover first hand how GoCPT can simplify your CPT coding processes'
+    },
+    {
+        title : 'Share your Feedback',
+        desc : 'Your experiences and insights matter. Utilize the feedback mechanism within the app to share your thoughts, suggestions, and any issues you encounter. Your feedback guides our ongoing improvements.'
+    }
+]

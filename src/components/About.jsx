@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className={` w-full ${theme === 'dark' ? 'bg-black' : 'bg-bluePrimary'} `} id='about'>
       <div className="aboutContainer px-8 md:px-16 flex flex-col items-center py-8 ">
-        <p className="text-5xl max-sm:text-xl w-full text-right underline my-12">About Us</p>
+        <p className="text-5xl max-sm:text-2xl w-full text-right underline my-12">About Us</p>
         <div className="content flex max-lg:flex-col justify-between items-center w-full">
             <img src={about} alt="about" className='w-2/5 max-lg:w-4/5 flex justify-center h-full'/>
             <div className="flex flex-col h-full justify-betweeen items-end gap-24 py-4 md:w-2/3 ">

@@ -1,11 +1,13 @@
 import About from "./components/About"
+import CallToAction from "./components/CallToAction"
 import Features from "./components/Features"
 import HomePage from "./components/HomePage"
 import Navbar from "./components/Navbar"
 import Story from "./components/Story"
-
+import ContactUs from "./components/ContactUs"
 import ThemeToggle from "./components/ThemeToggle"
 import WhyGocpt from "./components/WhyGocpt"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -18,6 +20,9 @@ function App() {
       <About />
       <Story />
       <WhyGocpt />
+      <CallToAction />
+      <ContactUs />
+      <Footer />
     </main>
   )
 }
