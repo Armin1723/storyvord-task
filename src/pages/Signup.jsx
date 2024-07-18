@@ -1,10 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/gocpt-logo.png";
+import { motion } from "framer-motion";
 
 const Signup = () => {
   return (
-    <section
+    <motion.section
+      initial={{
+        x: 120,
+        opacity: 0.2,
+        duration: 1,
+      }}
+      animate={{
+        x: 0,
+        opacity: 1,
+        ease: "easeInOut",
+      }}
+      exit={{
+        x: 120,
+        opacity: 0.5,
+      }}
+      transition={{
+        ease: "easeInOut",
+        duration: 1,
+      }}
       className="flex max-lg:flex-col-reverse h-screen w-full text-white flex-1 font-[jura]"
       id="signup"
     >
@@ -69,7 +88,7 @@ const Signup = () => {
           </button>
         </form>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
