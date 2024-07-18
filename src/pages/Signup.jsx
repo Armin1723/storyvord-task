@@ -8,7 +8,7 @@ const Signup = () => {
       className="flex max-lg:flex-col-reverse h-screen w-full text-white flex-1 font-[jura]"
       id="signup"
     >
-      <div className="left flex flex-col justify-center items-center md:gap-12 gap-6 px-6 py-6 bg-white/10 backdrop-blur-xl md:rounded-r-2xl rounded-t-2xl">
+      <div className="left flex flex-col justify-center items-center md:gap-12 gap-6 px-6 py-6 bg-white/10 backdrop-blur-xl md:rounded-r-2xl max-lg:rounded-t-2xl">
         <p className="text-2xl max-lg:text-xl">Already have an Account?</p>
         <Link
           to="/login"

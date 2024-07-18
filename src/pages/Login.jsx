@@ -31,7 +31,7 @@ const Login = () => {
           <button type='submit' className=" text-xl max-sm:text-lg bg-gradient-to-b from-[#5f5182] to-[#2e3254] rounded-md border border-pinkPrimary/80 flex items-center justify-center px-1 shadow-[0_0_50px_#ffffff99]">Login</button>
         </form>
       </div>
-      <div className="right flex flex-col justify-center items-center md:gap-12 gap-6 px-6 py-6 bg-white/10 backdrop-blur-xl md:rounded-l-2xl rounded-t-2xl">
+      <div className="right flex flex-col justify-center items-center md:gap-12 gap-6 px-6 py-6 bg-white/10 backdrop-blur-xl md:rounded-l-2xl max-lg:rounded-t-2xl">
         <p className='text-2xl max-lg:text-xl'>Dont have an Account?</p>
         <Link to='/signup' className="md:w-1/2 text-xl max-sm:text-lg bg-gradient-to-b from-[#5f5182] to-[#2e3254] rounded-md border border-pinkPrimary/80 flex items-center justify-center shadow-[0_0_50px_#ffffff99]">Sign Up</Link>
       </div>
